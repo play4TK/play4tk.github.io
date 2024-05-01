@@ -1,2 +1,75 @@
 # play4tk.github.io
 // Just initially to make a help page
+
+
+//Journal Help Page 1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Journal Entry Help</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-success text-white text-center">
+  <h1>Journal Entry Help</h1>
+  <p>Learn to Navigate Your Journal Below!</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Main Menu</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Topic Menu</h2>
+      
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Journal Entry Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">To Do List Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Journal Timeline Graph</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>How To Add A Journal Entry</h2>
+      <div class="fakeimg">Fake Image</div>
+      <p>Click on the "Add Entry" button under the "Journal Entry Calendar. After filling out your journal entry and submitting, click on the "X" in the top right corner to return to the homepage.</p>
+      <p>*Now that you have a journal entry submitted, you will be able to access "All Journal Entries".</p>
+
+      <h2 class="mt-5">How To Use All Journal Entries</h2>
+      <div class="fakeimg">Fake Image</div>
+      <p>Once you click on the "All Journal Entries" button, a window of all your submitted entries will pop up. The date of the entry will be on the left and the title you gave that moment will be displayed on the right. Click on a moment to return to it. It will have all information displayed about that moment for you to see.</p>
+      <p>*You can also edit or delete your moments as you would like.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p></p>
+</div>
+
+</body>
+</html>
